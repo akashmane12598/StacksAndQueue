@@ -19,6 +19,12 @@ namespace StacksAndQueues
                 stack.Pop();
                 stack.Display();
             }
+
+            LinkedListQueue queue = new LinkedListQueue();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.Display();
         }
     }
 }
